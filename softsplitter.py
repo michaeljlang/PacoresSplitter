@@ -4,6 +4,7 @@ from sentence_splitter import SentenceSplitter
 def softsplit(text,lang):
 
     """
+    
     Segments a text string twice, first using SentenceSplitter, and then with additional 
     segmentation for colons, semicolons, and other soft punctuation, such as quotations marks
     that SentenceSplitter will have missed. The aim is to provide a cleaner and more granular split 
@@ -26,7 +27,7 @@ def softsplit(text,lang):
  
     splitter = SentenceSplitter(language=lang)
     lines = splitter.split(text=text)
-    lines = [sent.strip() for sent in lines]
+    lines = [sent.strip() for sent in lines if sent != ""]
 
     segmented_text = ""
     for line in lines:
@@ -79,8 +80,8 @@ def softsplit(text,lang):
             segmented_text = segmented_text[:instance_emdash.span()[0]+1]+"\n"+segmented_text[instance_emdash.span()[0]+2:] 
 
     segmented_text = re.sub("\n\n","\n",segmented_text)   
-                   
-    for x in segmented_text.splitlines():
-        print(x + "\n")
+
+    additional_segments = len(segmented_text.split("\n")) - len(lines)
+    print("Total additional segments:",additional_segments)
                    
     return segmented_text
