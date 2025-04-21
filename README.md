@@ -17,4 +17,4 @@ PacoresSplitter can be run directly in Google Colab.
 **Remember to create your own copy in Drive in order to save changes.**
 
 ## Credits and Funding
-PacoresSplitter was developed by Michael Lang through the PaCorEs research group at the University of Santiago de Compostela in Galicia, Spain, and funded through the following grant: Corpus paralelos online del español PID2021-125313OB-I00. Agencia Estatal de Investigación.
+PacoresSplitter was developed by Michael Lang through the PaCorEs research group at the University of Santiago de Compostela in Galicia, Spain, and funded through the following grant: **Corpus paralelos online del español PID2021-125313OB-I00. Agencia Estatal de Investigación.**
