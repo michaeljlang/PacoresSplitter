@@ -8,9 +8,13 @@ For Spanish, English, German, and French, PacoresSplitter relies on the [sentenc
 For Chinese, segmentation is carried out using code developed for [Bertalign](https://github.com/bfsujason/bertalign/tree/main) by Lei Liu & Min Zhu (2022).
 
 ## Use
-PacoresSplitter can be run directly in a [Google Colab notebook](https://colab.research.google.com/drive/1iWqQQE9PuiGy4MmjLfV6KSEmLMafNZqM?usp=sharing). It is only necessary specify the routes to the input and output folders (in_dir and out_dir, respectively. Output is in the form of a txt file.
+PacoresSplitter can be run directly in Google Colab. 
 
-Remember to create a copy of your own in Drive in order to save changes.
+[This notebook](https://colab.research.google.com/drive/1xQh_8_cfKSgBEl_4ccALsTv4xMbsEFys?usp=sharing) provides examples using chapters from texts in different languages. The user can also load single files.
+
+[This notebook](https://colab.research.google.com/drive/1iWqQQE9PuiGy4MmjLfV6KSEmLMafNZqM?usp=sharing) will split a single file or a batch of files. It is only necessary specify the routes to the input and output folders (**in_dir** and **out_dir**, respectively. Output is in the form of a txt file.
+
+**Remember to create your own copy in Drive in order to save changes.**
 
 ## Credits and Funding
 PacoresSplitter was developed by Michael Lang through the PaCorEs research group at the University of Santiago de Compostela in Galicia, Spain, and funded through the following grant: Corpus paralelos online del español PID2021-125313OB-I00. Agencia Estatal de Investigación.
