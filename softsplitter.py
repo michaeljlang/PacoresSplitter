@@ -30,7 +30,7 @@ def softsplit(text,lang):
     if lang == 'zh':
         sents = _split_zh(text)
         sents = "\n".join(sents)
-        
+        sents = re.sub("：","：\n",sents)
     else: 
     
         splitter = SentenceSplitter(language=lang)
