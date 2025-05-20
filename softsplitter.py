@@ -19,7 +19,6 @@ def softsplit(text,lang):
                 English - "en"
                 German - "de"
                 Chinese - "zh"
-                French - "fr"
             
     Returns:
         segmented text - string with additional segmentation
