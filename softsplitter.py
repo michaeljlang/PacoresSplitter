@@ -27,9 +27,9 @@ def softsplit(text,lang):
 
     # for Chinese
     if lang == 'zh':
-        sents = _split_zh(text)
-        sents = "\n".join(sents)
-        sents = re.sub("：","：\n",sents)
+        final_text = _split_zh(text)
+        final_text = "\n".join(final_text)
+        final_text = re.sub("：","：\n",final_text)
     else: 
     
         splitter = SentenceSplitter(language=lang)
