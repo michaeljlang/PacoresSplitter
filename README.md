@@ -12,7 +12,7 @@ PacoresSplitter can be run directly in Google Colab.
 
 [This notebook](https://colab.research.google.com/drive/1xQh_8_cfKSgBEl_4ccALsTv4xMbsEFys?usp=sharing) provides examples using chapters from texts in different languages. The user can also load single files.
 
-[This notebook](https://colab.research.google.com/drive/1iWqQQE9PuiGy4MmjLfV6KSEmLMafNZqM?usp=sharing) will split a single file or a batch of files. It is only necessary specify the routes to the input and output folders (**in_dir** and **out_dir**, respectively. Output is in the form of a txt file.
+[This notebook](https://colab.research.google.com/drive/1iWqQQE9PuiGy4MmjLfV6KSEmLMafNZqM?usp=sharing) will split a single file or a batch of files. It is only necessary specify the routes to the input and output folders (**in_dir** and **out_dir**), respectively. Output is in the form of a txt file.
 
 **Remember to create your own copy in Drive in order to save changes.**
 
