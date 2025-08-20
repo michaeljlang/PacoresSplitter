@@ -1,9 +1,9 @@
 # PacoresSplitter
 
 ## Overview
-PacoresSplitter is aimed at providing fine-tuned text segmentaion in line with the needs of the [PaCorEs research group](https://www.pacores.eu/). It is designed for the five languages that make up the PaCorEs collection of parallel corpora: Spanish (primary), English, German, and Chinese.
+PacoresSplitter provides fine-tuned text segmentaion in line with the needs of the [PaCorEs research group](https://www.pacores.eu/). It is designed for the four languages that make up the PaCorEs collection of parallel corpora: Spanish (primary), English, German, and Chinese.
 
-For Spanish, English, German, and French, PacoresSplitter relies on the [sentence-splitter](https://pypi.org/project/sentence-splitter/) module for an initial split. Then additional segments are created based on soft punctuation such as colons and semi-colons, as well as language-specific markers for speech such as emdashes and different types of quoation marks.
+For Spanish, English, and German, PacoresSplitter relies on the [sentence-splitter](https://pypi.org/project/sentence-splitter/) module for an initial split. Then additional segments are created based on soft punctuation such as colons and semi-colons, as well as language-specific markers for speech such as emdashes and different types of quoation marks.
 
 For Chinese, segmentation is carried out using code developed for [Bertalign](https://github.com/bfsujason/bertalign/tree/main) by Lei Liu & Min Zhu (2022).
 
