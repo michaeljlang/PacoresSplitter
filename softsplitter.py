@@ -30,8 +30,9 @@ def softsplit(text,lang):
         final_text = _split_zh(text)
         final_text = "\n".join(final_text)
         final_text = re.sub("：","：\n",final_text)
+
+    # for all other languages
     else: 
-    
         splitter = SentenceSplitter(language=lang)
         segmented = splitter.split(text=text)
         segmented = [line.strip() for line in segmented if line != ""]
@@ -40,6 +41,7 @@ def softsplit(text,lang):
         replacements = [
             ("; ",";\n"),
             (": ",":\n")
+            ("?", "?\n")
         ]
         
         for old, new in replacements:
