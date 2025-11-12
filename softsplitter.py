@@ -40,7 +40,7 @@ def softsplit(text,lang):
     
         replacements = [
             ("; ",";\n"),
-            (": ",":\n")
+            (": ",":\n"),
             ("?", "?\n")
         ]
         
